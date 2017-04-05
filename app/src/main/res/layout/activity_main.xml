@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ljr.androidandh5.MainActivity">
+
+    <Button
+        android:id="@+id/javaTojs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="java调用js"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/javaTojs_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="java调用js播放视频"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/javaTojs_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="java调用js打电话"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <script type="text/javascript">
+
+    function javaCallJs(arg){
+    document.getElementById("content").innerHTML =
+             ("欢迎 "+arg);
+    }
+
+
+    </script>
+
+</head>
+<body>
+<div align="left" id="content">用户</div>
+<div align="left" >GitHub</div>
+<p><img src="Resource/timg.jpg"> </p>
+<input type="button" value="我是js，我要调用Android了" onclick="window.Android.showToast()"/>
+</body>
+</html>
